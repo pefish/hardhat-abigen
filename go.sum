@@ -16,8 +16,6 @@ github.com/pefish/go-config v0.5.6 h1:NKO4DE5ZmBroudgXFF9dAYw+gRoWmCuH11WVSgc0KM
 github.com/pefish/go-config v0.5.6/go.mod h1:/Awk91644D/Kz0MIFo5b15NppYw5/2y0PDgNPXatrcI=
 github.com/pefish/go-file v0.2.6 h1:IgU/QZtBx37wkfDNMwr8Iqqm4iY18ar9qqLdjha3SUI=
 github.com/pefish/go-file v0.2.6/go.mod h1:SsTQNSzKWUrpHJVZD1wyOjRAiXx4cIUgjSYMTHD1zxI=
-github.com/pefish/go-format v0.4.0 h1:zQ5n20V0/Ne5QOTFQ8vikWq3Et6EFJrxfEYuf5qz/Q4=
-github.com/pefish/go-format v0.4.0/go.mod h1:1AepmLAmAReyaqdlG3VEyzcjVxs1+6hdQuynsSO6008=
 github.com/pefish/go-format v0.4.1 h1:SYkyRzPRPRQgGDeEuTV5611q9mKr7Mp3/THqdaA7lz4=
 github.com/pefish/go-format v0.4.1/go.mod h1:zS1wcGSy1wcGB+p9OVOoO8RSrbdPOKfEkS6aW7KtGEM=
 github.com/pefish/go-interface v0.1.2 h1:CmBUP7e/mwFrqy2UiTb2637HzP4T1QlZPimgOOsWCQw=
