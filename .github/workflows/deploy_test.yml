@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - 'test'
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Deploy
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'http://xxx/api/v1/ci-start'
+          method: 'POST'
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: >-
+            {
+              "env": "test",
+              "repo": "XXX",
+              "fetch_code_key": "~/.ssh/XXX",
+              "port": 0,
+              "alert_tg_token": "",
+              "alert_tg_group_id": "",
+              "docker_network": "jinniu"
+            }
+

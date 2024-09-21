@@ -1,0 +1,15 @@
+
+**/.idea
+
+**/.vscode
+
+**/build
+
+**/.DS_Store
+
+**/log
+
+**/config/prod.yaml
+**/config/local.yaml
+**/config/dev.yaml
+.env
